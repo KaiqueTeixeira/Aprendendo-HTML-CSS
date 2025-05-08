@@ -41,7 +41,7 @@ Repositório para organização de arquivos e criação de projetos relacionados
 * [Exercício 19](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex019/seletor01.html)
 * Exercício 20 - [Parte 1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex020/hover.html) / [Parte 2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex020/links.html) / [Parte 3](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex020/pseudo-classe.html)
 * Exercício 21 - [Parte 1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex021/caixa01.html) / [Parte 2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%202/Exerc%C3%ADcios/ex021/caixa02.html)
-* 
+* Exercício 22 - [Parte 1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo001.html) / [Parte 2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo002.html) / [Parte 3](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo003.html) / [Parte 4](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo004.html) / [Parte 5](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo005.html) / [Parte 6](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo006.html) / [Parte 7](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Exerc%C3%ADcios/ex022/fundo007.html)
 
 
 ## Links Úteis
