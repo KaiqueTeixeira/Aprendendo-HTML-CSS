@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Versão Moblie First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url(../../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.842);
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(180, 176, 176);
+    font-size: 2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#phone{
+    display: block;
+}
+
+#tablet, #print, #pc, #tv{
+    display: none;
+}
