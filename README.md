@@ -19,7 +19,6 @@ Repositório para organização de arquivos e criação de projetos relacionados
 * Desafio 13 - Expansão de Tabelas - [Parte 1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Desafios/d013/tabela001.html) / [Parte 2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Desafios/d013/tabela002.html)
 * Desafio 14 - [Tabela de Notas Escolares](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%203/Desafios/d014/tabela.html)
 * Desafio 15 - [Projeto Social](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%204/Desafios/d015/)
-* Desafio 16 - [Teste da Media Queries](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%204/Exerc%C3%ADcios/ex026/mq004/index.html)
 
 ## Exercícios
 
