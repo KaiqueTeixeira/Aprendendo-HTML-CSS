@@ -1,4 +1,4 @@
-# Curso em Vídeo - HTML-CSS
+# Curso em Vídeo - HTML e CSS <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="30"  alt="HTML logo"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="30"  alt="CSS logo"/>
 
 Repositório para organização de arquivos e criação de projetos relacionados ao curso.
 
