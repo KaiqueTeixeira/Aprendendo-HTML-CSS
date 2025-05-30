@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+
+    <style>
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            margin-top: 30px;
+            border-top: 3px solid black;
+        }
+
+        /* Flex Direction = Column Wrap*/
+        .conteiner1 {
+            display: flex;
+            flex-flow: column wrap;
+            background-color: lightcoral;
+            height: 100px;
+        }
+
+        .item1 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 10px;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Column Wrap-Reverse*/
+        .conteiner1-1 {
+            display: flex;
+            flex-flow: column-reverse wrap-reverse;
+            background-color: lightcoral;
+            height: 100px;
+        }
+
+        .item1-1 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 10px;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Row */
+        .conteiner2 {
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightcoral;
+        }
+
+        .item2 {
+            flex: auto;
+
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Row-Reverse */
+        .conteiner2-1 {
+            display: flex;
+            flex-flow: row-reverse wrap-reverse;
+
+            background-color: lightcoral;
+        }
+
+        .item2-1 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Flex Direction = Column Wrap</h1>
+    <div class="conteiner1">
+
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+        <div class="item1">D</div>
+        <div class="item1">E</div>
+        <div class="item1">F</div>
+        <div class="item1">G</div>
+    </div>
+
+    <h1>Flex Direction = Column-Reverse Wrap-Reverse</h1>
+    <div class="conteiner1-1">
+
+        <div class="item1-1">A</div>
+        <div class="item1-1">B</div>
+        <div class="item1-1">C</div>
+        <div class="item1-1">D</div>
+        <div class="item1-1">E</div>
+        <div class="item1-1">F</div>
+        <div class="item1-1">G</div>
+    </div>
+
+    <h1>Flex Direction = Row Wrap</h1>
+    <div class="conteiner2">
+
+        <div class="item2">A</div>
+        <div class="item2">B</div>
+        <div class="item2">C</div>
+        <div class="item2">D</div>
+        <div class="item2">E</div>
+        <div class="item2">F</div>
+        <div class="item2">G</div>
+    </div>
+
+    <h1>Flex Direction = Row-Reverse Wrap-Reverse</h1>
+    <div class="conteiner2-1">
+
+        <div class="item2-1">A</div>
+        <div class="item2-1">B</div>
+        <div class="item2-1">C</div>
+        <div class="item2-1">D</div>
+        <div class="item2-1">E</div>
+        <div class="item2-1">F</div>
+        <div class="item2-1">G</div>
+    </div>
+    
+</body>
+</html>

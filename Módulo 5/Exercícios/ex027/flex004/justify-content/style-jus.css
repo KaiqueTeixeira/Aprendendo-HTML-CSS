@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body {
+    background-color: #745EBB;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+/* Column - Flex Start */
+.conteiner1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Column - Flex End */
+.conteiner1-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1-1 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Column - Flex Start */
+.conteiner1-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1-2 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Column - Space Between */
+.conteiner1-3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1-3 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Column - Space Evenly */
+.conteiner1-4 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1-4 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Column - Space Around */
+.conteiner1-5 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+    height: 350px;
+
+    background-color: lightcoral;
+}
+
+.item1-5 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Flex Start */
+.conteiner2 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+
+    background-color: lightcoral;
+}
+
+.item2 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Flex End */
+.conteiner2-1 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: flex-end;
+
+    background-color: lightcoral;
+}
+
+.item2-1 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Center */
+.conteiner2-2 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+
+    background-color: lightcoral;
+}
+
+.item2-2 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Space Between */
+.conteiner2-3 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-between;
+
+    background-color: lightcoral;
+}
+
+.item2-3 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Space Evenly */
+.conteiner2-4 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-evenly;
+
+    background-color: lightcoral;
+}
+
+.item2-4 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Row - Space Around */
+.conteiner2-5 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+
+    background-color: lightcoral;
+}
+
+.item2-5 {
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}

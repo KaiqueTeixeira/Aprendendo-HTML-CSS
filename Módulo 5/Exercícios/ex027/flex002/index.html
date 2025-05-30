@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+
+    <style>
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            margin-top: 30px;
+            border-top: 3px solid black;
+        }
+
+        /* Flex Direction = Column */
+        .conteiner1 {
+            display: flex;
+            flex-direction: column;
+            background-color: lightcoral;
+        }
+
+        .item1 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Column-Reverse */
+        .conteiner2 {
+            display: flex;
+            flex-direction: column-reverse;
+
+            background-color: lightcoral;
+        }
+
+        .item2 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Row */
+        .conteiner3 {
+            display: flex;
+            flex-direction: row;
+            background-color: lightcoral;
+        }
+
+        .item3 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Flex Direction = Row-Reverse */
+        .conteiner4 {
+            display: flex;
+            flex-direction: row-reverse;
+
+            background-color: lightcoral;
+        }
+
+        .item4 {
+            text-align: center;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Flex Direction = Column</h1>
+    <div class="conteiner1">
+
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+        <div class="item1">D</div>
+        <div class="item1">E</div>
+        <div class="item1">F</div>
+        <div class="item1">G</div>
+    </div>
+
+    <h1>Flex Direction = Column-Reverse</h1>
+    <div class="conteiner2">
+
+        <div class="item2">A</div>
+        <div class="item2">B</div>
+        <div class="item2">C</div>
+        <div class="item2">D</div>
+        <div class="item2">E</div>
+        <div class="item2">F</div>
+        <div class="item2">G</div>
+    </div>
+
+    <h1>Flex Direction = Row</h1>
+    <div class="conteiner3">
+
+        <div class="item3">A</div>
+        <div class="item3">B</div>
+        <div class="item3">C</div>
+        <div class="item3">D</div>
+        <div class="item3">E</div>
+        <div class="item3">F</div>
+        <div class="item3">G</div>
+    </div>
+
+    <h1>Flex Direction = Row-Reverse</h1>
+    <div class="conteiner4">
+
+        <div class="item4">A</div>
+        <div class="item4">B</div>
+        <div class="item4">C</div>
+        <div class="item4">D</div>
+        <div class="item4">E</div>
+        <div class="item4">F</div>
+        <div class="item4">G</div>
+    </div>
+    
+</body>
+</html>
