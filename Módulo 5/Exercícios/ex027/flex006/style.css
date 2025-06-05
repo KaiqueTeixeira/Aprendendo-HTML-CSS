@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+/* Align Content = Stretch */
+.conteiner-1 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: stretch;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Flex Start */
+.conteiner-2 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: flex-start;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Flex End */
+.conteiner-3 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: flex-end;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Center */
+.conteiner-4 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: center;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Space Between */
+.conteiner-5 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: space-between;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Space Evenly */
+.conteiner-6 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: space-evenly;
+    background-color: lightsalmon;
+}
+
+/* Align Content = Space Around */
+.conteiner-7 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content: space-around;
+    background-color: lightsalmon;
+}
