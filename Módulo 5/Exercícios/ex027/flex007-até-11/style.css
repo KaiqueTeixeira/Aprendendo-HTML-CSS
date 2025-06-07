@@ -4,12 +4,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgb(175, 175, 175);
+}
+
 h1 {
     border-top: 2px solid black;
     margin-top: 40px;
 }
 
-P {
+p {
     font-size: 18px;
 }
 
@@ -146,4 +150,57 @@ P {
     border: 1px solid black;
     text-align: center;
     padding: 20px;
+}
+
+/* Exercício Flex Shrink e Flex Grow */
+.conteiner {
+    display: flex;
+    flex-flow: row nowrap;
+
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 10px;
+
+    height: 100px;
+    align-items: center;
+
+}
+
+.item-a {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    text-align: center;
+
+    padding: 20px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.item-b {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    text-align: center;
+
+    padding: 20px;
+    flex-basis: 150px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.item-c {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    text-align: center;
+
+    padding: 20px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 2;
 }

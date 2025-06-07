@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Aprendendo a função ORDER nos itens</h1>
+    <p>Esta propriedade atribui uma ordem numérica a cada item flexível. Por padrão, todos os itens têm order 0 e aparecem de acordo com sua posição no HTML.</p>
+    <div class="conteiner-order">
+        <div class="item-order" id="i1">A</div>
+        <div class="item-order" id="i2">B</div>
+        <div class="item-order" id="i3">C</div>
+        <div class="item-order" id="i4">D</div>
+        <div class="item-order" id="i5">E</div>
+        <div class="item-order" id="i6">F</div>
+        <div class="item-order" id="i7">G</div>
+    </div>
+    
+    <div class="conteiner-order">
+        <div class="item-order" id="i1-2">A</div>
+        <div class="item-order" id="i2-2">B</div>
+        <div class="item-order" id="i3-2">C</div>
+        <div class="item-order" id="i4-2">D</div>
+        <div class="item-order" id="i5-2">E</div>
+        <div class="item-order" id="i6-2">F</div>
+        <div class="item-order" id="i7-2">G</div>
+    </div>
+
+    <h1>Aprendendo a função ALIGN-SELF nos itens</h1>
+    <p>Permite que o alinhamento padrão (ou o que estiver definido por align-items) seja sobrescrito para ítens individuais.</p>
+    <div class="conteiner-self">
+        <div class="item-self" id="i1-self">A</div>
+        <div class="item-self" id="i2-self">B</div>
+        <div class="item-self" id="i3-self">C</div>
+        <div class="item-self" id="i4-self">D</div>
+        <div class="item-self" id="i5-self">E</div>
+        <div class="item-self" id="i6-self">F</div>
+        <div class="item-self" id="i7-self">G</div>
+    </div>
+
+    <h1>Aprendendo a função FLEX-BASIS nos itens</h1>
+    <p>Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.</p>
+        <div class="conteiner-basis">
+        <div class="item-basis" id="i1">A</div>
+        <div class="item-basis" id="i2">B</div>
+        <div class="item-basis" id="i3">C</div>
+        <div class="item-basis" id="i4">D</div>
+        <div class="item-basis" id="i5">E</div>
+        <div class="item-basis" id="i6">F</div>
+        <div class="item-basis" id="i7">G</div>
+    </div>
+
+    <h1>Aprendendo a função Flex Grow e Flex Shrink</h1>
+
+    <p><strong>Flex Grow:</strong> Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.</p>
+    <p><strong>Flex Shrink:</strong> Define a capacidade de um item flexível de encolher quando o espaço no contêiner for insuficiente. Assim como o flex-grow, seu valor é numérico e proporcional. Quanto maior o valor, mais o item irá encolher em relação aos demais. Se o valor for 0, o item não encolherá e tentará manter seu tamanho original, mesmo que isso faça com que ele ultrapasse os limites do contêiner.</p>
+
+
+    <h3>Observação Importante</h3>
+    <p>Eles não crescem tantas vezes maios que o outro, tudo se trata de proporção, eles se esticam e encolhem proporcionalmente aos outros itens.</p>
+    <p>Os valores de flex-grow e flex-shrink funcionam com base na proporção entre os itens, e não como multiplicadores diretos de tamanho. Ou seja, quando o espaço do contêiner muda (aumenta ou diminui), os itens distribuem esse espaço de forma proporcional aos valores definidos.</p>
+
+    <div class="conteiner">
+
+        <div class="item-a">A</div>
+        <div class="item-b">B</div>
+        <div class="item-c">C</div>
+    </div>
+
+    <p><strong>Item A=</strong> flex-grow: 0 | flex-shrink: 1 <br>O Item A não cresce quando a largura do contêiner aumenta — ele mantém seu tamanho definido em flex-basis. Porém, quando a tela é reduzida, ele pode encolher proporcionalmente, pois flex-shrink está ativado com valor 1.</p>
+    <p><strong>Item B=</strong> flex-grow: 2 | flex-shrink: 0 <br>O Item B cresce o dobro do Item C ao expandir a tela, pois seu flex-grow é 2 (enquanto o do Item C é 1). Isso significa que ele ocupa uma porção maior do espaço extra disponível. Por outro lado, ele não encolhe quando a tela diminui, pois seu flex-shrink é 0. Ou seja, ele tenta manter seu tamanho base ao máximo.</p>
+    <p><strong>Item C=</strong> flex-grow: 1 | flex-shrink: 2 <br>O Item C também cresce quando há espaço extra, mas em uma proporção menor que o Item B (porque seu flex-grow é 1). Ao diminuir a tela, o Item C encolhe mais rapidamente que o Item A, pois seu flex-shrink é 2 (o dobro do valor de A).
+
+</p>
+
+
+</body>
+</html>

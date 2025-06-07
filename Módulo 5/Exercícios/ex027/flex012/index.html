@@ -7,6 +7,19 @@
 
      <style>
 
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(175, 175, 175);
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+
          .conteiner {
             background-color: lightsalmon;
             display: flex;
@@ -17,6 +30,8 @@
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
+
+            padding: 20px;
          }
 
          #cxA {
@@ -55,6 +70,16 @@
 </head>
 <body>
 
+    <h1>Propriedade Flex</h1>
+
+    <p>É uma propriedade abreviada (shorthand) que reúne três outras propriedades do Flexbox: flex-grow, flex-shrink e flex-basis. Ela define, de forma compacta, como um item flexível deve crescer, encolher e qual será seu tamanho base dentro de um contêiner flexível.</p>
+
+    <p><strong>Sintaxe:</strong> <br>flex: [flex-grow] - [flex-shrink] - [flex-basis]; </p>
+
+    <p><strong>Exemplo:</strong> <br>flex: 1 0 150px;</p>
+    
+    <p><strong>1 =</strong> o item pode crescer proporcionalmente ao espaço disponível; <br><strong>0 =</strong> o item não pode encolher; <br><strong>150px =</strong> o tamanho base inicial do item.</p>
+
     <div class="conteiner">
 
         <div class="item" id="cxA">A</div>
@@ -62,6 +87,9 @@
         <div class="item" id="cxC">C</div>
     </div>
     
-    
+    <p><strong>A=</strong> flex: 1 0 200px; <br> Flex-Grow= 1 <br>Flex-Shrink= 0 <br>Flex-Basis= 200px</p> 
+    <p><strong>B=</strong> flex: 1 1 150px; <br> Flex-Grow= 1 <br>Flex-Shrink= 1 <br>Flex-Basis= 150px</p> 
+    <p><strong>C=</strong> flex: 1 8 auto; <br> Flex-Grow= 1 <br>Flex-Shrink= 8 <br>Flex-Basis= auto</p> 
+
 </body>
 </html>
