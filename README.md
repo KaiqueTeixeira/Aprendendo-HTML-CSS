@@ -2,7 +2,7 @@
 
 Repositório para organização de arquivos e criação de projetos relacionados ao curso.
 
-## Desafios e Projetos do Curso
+## 🚀 Desafios e Projetos do Curso
 
 * Desafio 1 - [Desafio das Mensagens](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%201/Desafios/d001/index.html)
 * Desafio 2 - [Desafio das Imagens](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%201/Desafios/d002/index.html)
@@ -21,7 +21,7 @@ Repositório para organização de arquivos e criação de projetos relacionados
 * Desafio 15 - [Projeto Social](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%204/Desafios/d015/)
 * Desafio 16 - [Tela de Login](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%204/Desafios/d016/)
 
-## Exercícios
+## 📚 Exercícios
 
 * Exercício 1 - Olá, Mundo! - [ex001](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%201/Exerc%C3%ADcios/ex001/)
 * Exercício 2 - Paragráfos e quebras de linhas - [ex002](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%201/Exerc%C3%ADcios/ex002/)
@@ -51,7 +51,7 @@ Repositório para organização de arquivos e criação de projetos relacionados
 * Exercício 27 - Flex Box - [ex027.1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex001/index.html) / [ex027.2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex002/index.html) / [ex027.3](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex003/index.html) / [ex027.4](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex004/index.html) / [ex027.5](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex005/index.html) / [ex027.6](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex006/index.html) / [ex027.7 até 11](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex007-at%C3%A9-11/index.html) / [ex027.12](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex012/index.html) / [ex027.13](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex013/index.html) / [ex027.14](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex027/flex014/index.html)
 * Exercício 28 - Grid Layout - [ex028.1](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex028/grid01/) / [ex028.2](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex028/grid02/) / [ex028.3](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex028/grid03/) / [ex028.4 até 6](https://kaiqueteixeira.github.io/Aprendendo-HTML-CSS/M%C3%B3dulo%205/Exerc%C3%ADcios/ex028/grid04-at%C3%A9-06/index.html)
 
-## Links Úteis
+## 🔗 Links Úteis
 
 * [Curso em Vídeo](https://www.cursoemvideo.com/)
 * [Playlist do Curso](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
